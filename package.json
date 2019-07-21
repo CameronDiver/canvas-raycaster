@@ -1,0 +1,21 @@
+{
+  "name": "raycaster",
+  "version": "0.0.1",
+  "description": "A raycaster using the HTML canvas",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "webpack-dev-server --mode development",
+    "build": "webpack"
+  },
+  "author": "Cameron Diver <cameron@balena.io>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+  }
+}
